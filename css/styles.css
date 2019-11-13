@@ -30,6 +30,7 @@ h2{
   align-items: center;
   justify-content: space-between;
   height: 90px;
+  flex-wrap: wrap;
 }
 .header-logo{
 	margin: 0;
@@ -65,6 +66,7 @@ ol li{
 	height: 500px;
 	display: flex;
 	justify-content: space-between;
+	 flex-wrap: wrap;
 
 }
 .hero p{
@@ -91,11 +93,13 @@ ol li{
 .values{
 	background-color:#3b3b3b;
 	height: 450px;
+
 }
 
 .content{
 	display: flex;
 	justify-content: space-between;
+	 flex-wrap: wrap;
 }
 
 .content-values{
@@ -128,6 +132,7 @@ ol li{
 	display: flex;
 	justify-content: space-between;
 	height: 450px;
+	 flex-wrap: wrap;
 }
 .person{
 	margin: 40px 10px;
@@ -195,6 +200,7 @@ ol li{
 	justify-content: space-between;
 	align-items: center;
 	 height: 500px;
+	  flex-wrap: wrap;
 }
 .project-title{
 	display: flex;
@@ -230,6 +236,7 @@ ol li{
     display: flex;
     align-items: center;
     margin: 0 auto;
+     flex-wrap: wrap;
 }
 .suscription{
   display: inherit;
@@ -283,7 +290,8 @@ input{
 	display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 250px
+    height: 250px;
+     flex-wrap: wrap;
 
 }
 
@@ -372,7 +380,8 @@ input{
  	color:#949494;
  }
  .container{
- 	width: 1000px;
+ 	max-width: 1000px;
+ 	flex: 1;
  	margin:0 auto;
  	display: inherit;
  	justify-content: inherit;
