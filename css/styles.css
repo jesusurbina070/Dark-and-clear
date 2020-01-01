@@ -447,6 +447,9 @@ input{
  	
  }
  @media screen and (max-width: 480px){
+ 	.burger-button{
+ 		display: block;
+ 	}
  	.header{
  		display: block;
     	height: auto;
