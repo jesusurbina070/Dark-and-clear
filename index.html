@@ -11,8 +11,8 @@
 	<i class="icon-menu burger-button" id="burger-button"></i>
 	<header class="header">
 		<div class="container">
-		<figure class="header-logo">
-			<img class="header-logoContainer" src="image/logo.png" height="50px" alt="logo de Dark and clear">
+		<figure class="header-logoContainer">
+			<img class="header-logo" src="image/logo.png" height="50px" alt="logo de Dark and clear">
 		</figure>
 		<nav class="menu">
 		<ol>
@@ -222,6 +222,7 @@
 	<script>
 		const ipad = window.matchMedia('screen and (max-width: 480px)')
 		const menu = document.querySelector('.menu');
+		const logo = document.querySelector('.header-logo');
 		const burgerButton = document.querySelector('#burger-button')
 
 		ipad.addListener(validation)
@@ -229,21 +230,31 @@
 		function validation(event){
 			if(event.matches){
 				burgerButton.addEventListener('click', showHide);
+		
 			} 
 			else{
 				burgerButton.removeEventListener('click', showHide);
+				
 			}
 		}
 		validation(ipad);
 
 		function showHide(){
-			if (menu.classList.contains('is-active') ){
-				menu.classList.remove('is-active');
+				if (menu.classList.contains('is-active') ){
+				menu.classList.remove('is-active');		
 			}
 			else{
-				menu.classList.add('is-active');
+				menu.classList.add('is-active');	
 			}
-		}
+			if(logo.classList.contains('is-active') ){
+				logo.classList.remove('is-active');
+				}
+
+			else{
+				logo.classList.add('is-active');
+			}
+			
+			}
 
 
 

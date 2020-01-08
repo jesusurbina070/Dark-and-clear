@@ -61,7 +61,6 @@ h2{
   align-items: center;
   justify-content: space-between;
   height: 90px;
-  flex-wrap: wrap;
 }
 .header-logo{
 	margin: 0;
@@ -455,8 +454,17 @@ input{
     	height: auto;
     	padding: 0;
 }
-.header-logo img{
+.header-logoContainer{
+	margin:0;
+}
+
+.header-logo {
 	padding: 20px 30px;
+}
+
+.header-logo.is-active{
+	position: fixed;
+	z-index: 5;
 
 }
 	.header ol{
