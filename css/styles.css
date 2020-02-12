@@ -99,6 +99,9 @@ ol li{
 	 flex-wrap: wrap;
 
 }
+.hero-details{
+	display: flex;
+}
 .hero p{
 	
 	margin-bottom: 40px
@@ -440,9 +443,41 @@ input{
  	.header{
  		padding: 0 2em;
  	}
+ 	.hero{
+ 		height: auto;
+ 	}
+ 	.hero-details{
+ 		display: block;
+ 		margin: 0 auto;
+ 	}
+ 	.hero-titles{
+ 		text-align: center;
+ 	}
+ 	.hero-image{
+ 		text-align: center;
+ 		margin-top: 2em;
+ 	}
+ 	.hero-imageContainer{
+ 		height: auto;
+ 		max-width: 100%
+ 	}
+ 	h1{
+ 		font-size: 48px;	
+ 	}
+ 	.paragraph.title{
+ 		font-size: 1.25em;
+ 	}
 	
  }
  @media screen and (max-width: 767px){
+ 	h1{
+		font-size: 40px;
+	}
+	.paragraph.title {
+		font-size: 1em;
+	}
+	
+
  	
  }
  @media screen and (max-width: 480px){
@@ -505,9 +540,25 @@ input{
 	.menu.is-active{
  		left: 0;
 	}
+
+	.title br{
+		display: none;
+		font-size: 40px;
+	}
+	.paragraph.title br{
+		display: none;
+		font-size: 1em;
+	}
+	h1{
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	.paragraph.title {
+		font-size: .9em;
+	}
+	
+}
  	
- 	
- }
  @media screen and (max-width: 320px){
  	
  }
