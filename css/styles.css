@@ -556,11 +556,17 @@ input{
 	.paragraph.title {
 		font-size: .9em;
 	}
+	.hero-imageContainer{
+ 		height: auto;
+ 		max-width: 70%;
+ 	}
 	
 }
  	
  @media screen and (max-width: 320px){
- 	
+ 	.menu a{
+ 		font-size: 1.5em;
+ 	}
  }
 
  
