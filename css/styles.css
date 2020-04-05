@@ -346,11 +346,7 @@ input{
     width: 150px;
 }
 .footer{
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 250px;
-     flex-wrap: wrap;
 
 }
 
