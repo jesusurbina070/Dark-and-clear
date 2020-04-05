@@ -349,6 +349,11 @@ input{
     height: 250px;
 
 }
+.footer-container{
+	display: grid;
+	grid-template-columns: 100px 94px 195px 177px;
+	justify-content: space-between; 
+}
 
 .footer-image{
 	margin:0;
