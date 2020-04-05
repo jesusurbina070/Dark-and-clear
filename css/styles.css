@@ -371,13 +371,9 @@ input{
 	text-transform: none;
 	margin-left: 0px;
 	}
+
 .footer-information{
-	display: inherit;
-    flex-direction: column;
-    
-}
-.footer-information{
-	display: inherit;
+	display: flex;
     flex-direction: column;
     }
 .information{
