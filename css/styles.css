@@ -353,6 +353,8 @@ input{
 	display: grid;
 	grid-template-columns: 100px 94px 195px 177px;
 	justify-content: space-between; 
+	align-items: center;
+	margin-top: 45px;
 }
 
 .footer-image{
