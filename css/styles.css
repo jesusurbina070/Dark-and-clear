@@ -356,6 +356,9 @@ input{
 	align-items: center;
 	margin-top: 45px;
 }
+.footer-logo{
+	/*grid-area: logo;*/
+}
 
 .footer-image{
 	margin:0;
@@ -388,6 +391,12 @@ input{
 	flex-direction: column;
 
 }
+/*.footer-details:nth-of-type(1){
+	grid-area: Details;
+}
+.footer-details:nth-of-type(2){
+	grid-area: details;
+}*/
 .footer-link{
 	margin: 8px;
 	font-size: 13px;
@@ -516,6 +525,9 @@ input{
 		padding: 0 2em;
 	}
 	.contact{
+		padding: 0 2em;
+	}
+	.footer{
 		padding: 0 2em;
 	}
 	
