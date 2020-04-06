@@ -798,6 +798,23 @@ h2{
 	margin-bottom: 20px;
 
 }
+.footer-container{
+	height: 550px;
+	grid-template-columns: 400px;
+	grid-template-areas: "logo" 
+						 "details"
+	 					 "Details" 
+	 					 "information";
+	justify-items:flex-start;
+	justify-content: flex-start;
+}
+.footer-link{
+	font-size: 17px;
+
+}
+.footer p{
+	font-size: 17px;
+}
 
 	
 }
