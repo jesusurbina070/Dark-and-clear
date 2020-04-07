@@ -800,7 +800,7 @@ h2{
 }
 .footer-container{
 	height: 550px;
-	grid-template-columns: 400px;
+	grid-template-columns: minmax(200px, 400px);
 	grid-template-areas: "logo" 
 						 "details"
 	 					 "Details" 
@@ -815,7 +815,6 @@ h2{
 .footer p{
 	font-size: 17px;
 }
-
 	
 }
 
