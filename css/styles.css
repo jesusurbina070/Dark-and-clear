@@ -102,8 +102,9 @@ ol li{
 	text-transform: uppercase;	
 }
 
+
 .hero{
-	height: 500px;
+	height: calc(100vh - 90px);
 	display: flex;
 	justify-content: space-between;
 	 flex-wrap: wrap;
@@ -112,6 +113,12 @@ ol li{
 
 .hero-details{
 	display: flex;
+
+}
+
+.hero-titles{
+	animation: Aleft 1s ease-out;
+	position: relative;
 }
 
 .hero p{
@@ -137,6 +144,9 @@ ol li{
 
 .hero-image{
 	margin: 0;
+	position: relative;
+	animation: Aright 1s ease-out;
+
 }
 
 .values{
@@ -389,6 +399,14 @@ input{
 	flex-direction: column;
 
 }
+.footer-details a:hover{
+	font-size: 16px;
+	color: #1b1b1b;
+
+
+
+
+}
 
 .footer-link{
 	margin: 8px;
@@ -465,6 +483,39 @@ input{
   z-index: 5;
   right: 2.5em;
   top: 1.6em;
+}
+
+
+@keyframes Aright{
+	0%{
+		left: 100vw;
+		opacity: 0%;
+
+	}
+	60%{
+		opacity: 0;
+	}
+	100%{
+		left: 0;
+		opacity: 100%;
+	}
+}
+
+ @keyframes Aleft{
+ 	0%{
+		right: 100vw;
+		opacity: 0%;
+
+	}
+	60%{
+		opacity: 0;
+	}
+	100%{
+		right: 0;
+		opacity: 100%;
+	}
+
+
 }
 
 
@@ -848,6 +899,20 @@ h2{
 }
 .footer p{
 	font-size: 17px;
+}
+
+.footer-details a:hover{
+	font-size: 17px;
+	color:#8e8e8e;
+
+
+
+}
+	
+
+
+
+
 }
 	
 }
