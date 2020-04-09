@@ -142,6 +142,12 @@ ol li{
 	background-color: #ed3430;
 }
 
+.hero-button:hover{
+	background: #b50505;
+	color: #FFF;
+
+}
+
 .hero-image{
 	margin: 0;
 	position: relative;
@@ -307,6 +313,11 @@ ol li{
 	text-transform: uppercase;
 	font-size: 13px;
 }
+.project-button:hover{
+	background: #b50505;
+	color: #FFF;
+
+}
 .contact{
 	background-color: #3b3b3b;
 	height: 700px;
@@ -369,7 +380,7 @@ input{
 }
 .footer-container{
 	display: grid;
-	grid-template-columns: 100px 94px 195px 177px;
+	grid-template-columns: 100px 120px 195px 177px;
 	justify-content: space-between; 
 	align-items: center;
 	margin-top: 45px;
@@ -531,7 +542,7 @@ input{
 		opacity: 0;
 	}
 
-	50%{
+	40%{
 		opacity: 0;
 	}
 	80%{
