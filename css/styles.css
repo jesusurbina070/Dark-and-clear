@@ -256,7 +256,8 @@ ol li{
 	padding:0px;
 	margin-top: 3px;
 	padding-top:3px;
-}.product-imageContainer{
+}
+.product-imageContainer{
 	object-fit: contain;
 }
 
@@ -515,7 +516,15 @@ input{
 		opacity: 100%;
 	}
 
+}
 
+@keyframes topBottom{
+	0%{
+
+	}
+	100%{
+		
+	}
 }
 
 
@@ -904,12 +913,6 @@ h2{
 .footer-details a:hover{
 	font-size: 17px;
 	color:#8e8e8e;
-
-
-
-}
-	
-
 
 
 
