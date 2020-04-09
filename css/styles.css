@@ -199,13 +199,19 @@ ol li{
 	position: relative;
 	margin-top: -110px;
 	text-align: center;
+	
 }
 .imageContainer-person{
 	margin: 0;
 	padding:0;
 }
-.person-details{
+
+.image-person{
+	position: relative;
+	opacity: 0;
+	top: 100vh;
 }
+
 .person-name{
 	margin-bottom: 0px;
 }
@@ -222,6 +228,7 @@ ol li{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+
 }
 .product-title{
 	position: relative;
@@ -520,9 +527,21 @@ input{
 
 @keyframes topBottom{
 	0%{
-
+		top: 100vh;
+		opacity: 0;
 	}
+
+	50%{
+		opacity: 0;
+	}
+	80%{
+		top: -50px;
+	}
+
+
 	100%{
+		top: 0;
+		opacity: 100%;
 		
 	}
 }
