@@ -153,7 +153,7 @@ ol li{
 	margin: 0;
 	position: relative;
 	animation: Aright 1s ease-out;
-	will-change: opacity, transition;
+	will-change: opacity;
 
 }
 
@@ -218,6 +218,7 @@ ol li{
 	position: relative;
 	opacity: 0;
 	top: 100vh;
+	will-change: opacity;
 }
 
 .person-name{
@@ -526,7 +527,7 @@ input{
   text-align: center;
   position: fixed;
   color: white;
-  z-index: 5;
+  z-index: 11;
   right: 2.5em;
   top: 1.6em;
 }
@@ -891,6 +892,7 @@ input{
 		position: fixed;
 		background: rgba(35, 33, 33, .9);
 		top: 0;
+		z-index: 10;
 		right: 0;
 		bottom: 0;
 		width: 100vw;
