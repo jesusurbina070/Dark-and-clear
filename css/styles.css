@@ -353,6 +353,15 @@ input{
  	border: 1px solid #767676;
  	color: white;
  }
+ input:hover{
+ 	background: #b50505;
+	color: #FFF;
+
+ }
+ input:active{
+    transform: scale(.9);
+
+}
  textarea{
  	font-family: Arial;
  	height: 120px;
