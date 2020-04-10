@@ -119,6 +119,7 @@ ol li{
 .hero-titles{
 	animation: Aleft 1s ease-out;
 	position: relative;
+	will-change: opacity;
 }
 
 .hero p{
@@ -152,6 +153,7 @@ ol li{
 	margin: 0;
 	position: relative;
 	animation: Aright 1s ease-out;
+	will-change: opacity, transition;
 
 }
 
@@ -288,11 +290,24 @@ ol li{
 	justify-content: space-between;
 	align-items: center;
 	grid-area: contenido;
+
 }
 
 .projects{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	position: relative;
+}
+
+.projects.a{
+	right: 100vw;
+	
+
+}
+
+.projects.b{
+	left: 100vw;
+
 }
 .projects-image{
 	margin: 0px;
@@ -353,15 +368,6 @@ input{
  	border: 1px solid #767676;
  	color: white;
  }
- input:hover{
- 	background: #b50505;
-	color: #FFF;
-
- }
- input:active{
-    transform: scale(.9);
-
-}
  textarea{
  	font-family: Arial;
  	height: 120px;
@@ -382,6 +388,16 @@ input{
     background-color: #ed3430;
     height: 50px;
     width: 150px;
+}
+
+.suscription-button:hover{
+ 	background: #b50505;
+	color: #FFF;
+
+ }
+ .suscription-button:active{
+    transform: scale(.9);
+
 }
 .footer{
     height: 250px;
@@ -431,9 +447,6 @@ input{
 	font-size: 16px;
 	color: #1b1b1b;
 
-
-
-
 }
 
 .footer-link{
@@ -472,6 +485,11 @@ input{
 	background-size: cover;
 	filter: brightness(100%) invert(1);
 	
+}
+.social-link:hover{
+	width: 23px;
+	height: 23px;
+
 }
 .social-link.twitter{
   background-image: url('../image/twitter.svg');
@@ -563,6 +581,37 @@ input{
 		top: 0;
 		opacity: 100%;
 		
+	}
+}
+
+@keyframes leftCenter{
+	0%{
+		right: 100vh;
+
+
+	}
+	60%{
+		right: -110px;
+	}
+
+	100%{
+		right: 0;
+
+	}
+}
+@keyframes rightCenter{
+	0%{
+		left: 100vh;
+
+
+	}
+	60%{
+		left: -110px;
+	}
+
+	100%{
+		left: 0;
+
 	}
 }
 
@@ -767,6 +816,32 @@ input{
 	grid-area: information;
 }
 
+
+.hero-button:hover{
+	background-color: #ed3430;
+	color: #FFF;
+
+}
+
+.project-button:hover{
+	background-color: #ed3430;
+	color: #FFF;
+
+}
+
+.suscription-button:hover{
+ 	background-color: #ed3430;
+	color: #FFF;
+
+ }
+
+ .social-link:hover{
+	width: 25px;
+	height: 25px;
+
+}
+
+
  }
  @media screen and (max-width: 480px){
  	.burger-button{
@@ -956,6 +1031,34 @@ h2{
 
 
 }
+
+@keyframes leftCenter{
+	0%{
+		right: 100vh;
+
+
+	}
+
+	100%{
+		right: 0;
+
+	}
+}
+
+@keyframes rightCenter{
+	0%{
+		left: 100vh;
+
+
+	}
+	100%{
+		left: 0;
+
+	}
+}
+
+
+
 	
 }
 
