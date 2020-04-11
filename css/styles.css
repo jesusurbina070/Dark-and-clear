@@ -870,7 +870,7 @@ input{
 
 .header-logo.is-active{
 	position: fixed;
-	z-index: 5;
+	z-index: 12;
 
 }
 	.header ol{
